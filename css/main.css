@@ -44,23 +44,21 @@ h3 {
 	opacity: 0.9;
 }
 
-header {
+.row {
 	padding: 1em;
+}
+
+header {
 	background-color: #FA5A0F;
 	border-bottom: solid 5px #EA4A00;
 	color: #FFFFFF;
 }
 
-.tag-line {
+#tag-line {
 	display: none;
 }
 
-.info, .about {
-	padding: 1em;
-}
-
-.menu {
-	padding: 1em;
+#menu {
 	background-color: rgba(207, 205, 140, 0.5);
 }
 
@@ -76,7 +74,6 @@ dd {
 }
 
 footer {
-	padding: 1em;
 	background-color: #FC892F;
 	border-top: solid 5px #EC791F;
 	font-size: 80%;
@@ -102,6 +99,10 @@ nav a:hover, nav a:focus {
 	color: #00E;
 }
 
+.col-md-6 {
+	padding: 0;
+}
+
 @media (min-width: 992px) {
 	body {
 		background-image: url(../img/background.jpg);
@@ -117,7 +118,7 @@ nav a:hover, nav a:focus {
 		margin-right: 20px;
 	}
 
-	.tag-line {
+	#tag-line {
 		font-size: 120%;
 		color: #EEEEEE;
 		margin: 0;
